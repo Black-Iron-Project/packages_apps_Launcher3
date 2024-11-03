@@ -52,7 +52,7 @@ import com.android.launcher3.util.SettingsCache;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-import com.android.internal.util.android.OmniJawsClient;
+import com.android.internal.util.blackiron.OmniJawsClient;
 
 /**
  * Settings activity for Launcher.
