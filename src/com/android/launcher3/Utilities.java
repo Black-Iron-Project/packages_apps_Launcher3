@@ -1200,4 +1200,14 @@ public final class Utilities {
         SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_SHOW_QUICKSPACE_WEATHER_TEXT, true);
     }
+    
+    public static boolean isTaskbarEnabled(Context context) {
+        return com.android.launcher3.util.SettingsCache.INSTANCE.get(context).getValue(com.android.launcher3.taskbar.TaskbarManager.ENABLE_TASKBAR,
+                        isTablet(context) ? 1 : 0);
+    }
+    
+    public static boolean isTablet(Context context) {
+        int smallestWidthDp = context.getResources().getConfiguration().smallestScreenWidthDp;
+        return smallestWidthDp >= 600;
+    }
 }
