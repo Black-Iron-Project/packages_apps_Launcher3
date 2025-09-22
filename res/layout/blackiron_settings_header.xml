@@ -7,10 +7,10 @@
 
     android:layout_width="match_parent" 
     android:layout_height="wrap_content" 
-    android:layout_marginTop="@dimen/clover_vertical_padding" 
-    android:layout_marginBottom="@dimen/clover_vertical_padding" 
-    android:layout_marginHorizontal="@dimen/clover_card_side_margin" 
-    app:cardCornerRadius="@dimen/clover_card_radius" 
+    android:layout_marginTop="@dimen/blackiron_vertical_padding" 
+    android:layout_marginBottom="@dimen/blackiron_vertical_padding" 
+    android:layout_marginHorizontal="@dimen/blackiron_card_side_margin" 
+    app:cardCornerRadius="@dimen/blackiron_card_radius" 
     app:cardElevation="0dp">
 
     <FrameLayout 
@@ -22,7 +22,7 @@
             android:gravity="center"
             android:layout_width="match_parent"> 
                 <ImageView 
-                    android:src="@drawable/clover_branding_image"
+                    android:src="@drawable/blackiron_branding_image"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
                     android:layout_width="match_parent"
